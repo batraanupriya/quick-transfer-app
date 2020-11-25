@@ -1,0 +1,16 @@
+<div class="container-fluid mt-5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-3 mb-3">
+      <app-quick-transfer-form
+        [userAccount]="userAccountDetails$ | async"
+        [merchants]="merchants$ | async"
+        (initiateTransaction)="initiateTransaction($event)"
+      ></app-quick-transfer-form>
+    </div>
+    <div class="col-12 col-md-10 col-lg-7">
+      <app-transaction-list
+        [transactions]="transactions$ | async"
+      ></app-transaction-list>
+    </div>
+  </div>
+</div>
