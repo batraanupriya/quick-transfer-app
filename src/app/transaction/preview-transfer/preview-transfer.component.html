@@ -1,5 +1,5 @@
 <div class="modal-header text-white justify-content-between">
-  <span class="modal-title">Confirmation</span>
+  <span i18n class="modal-title">Confirmation</span>
   <button type="button" class="close p-0 m-0" (click)="dismiss()">
     <span>&times;</span>
   </button>
@@ -9,7 +9,7 @@
     <div
       class="row from-account border-bottom align-items-center justify-content-center"
     >
-      <span class="col-3 from-account-title">From</span>
+      <span i18n class="col-3 from-account-title">From</span>
       <span class="col-5">
         <div class="from-account-name">{{ data.fromAccount.name }}</div>
         <div class="from-account-number">
@@ -20,14 +20,14 @@
     <div
       class="row to-account border-bottom align-items-center justify-content-center"
     >
-      <span class="col-3 to-account-title">To</span>
+      <span i18n class="col-3 to-account-title">To</span>
       <span class="col-5">
         <div class="to-account-name">{{ data.toAccount.name }}</div>
         <div class="to-account-number">{{ data.toAccount.accountNumber }}</div>
       </span>
     </div>
     <div class="row align-items-center justify-content-center pt-2 pb-2">
-      <span class="col-3 amount-title">Amount</span>
+      <span i18n class="col-3 amount-title">Amount</span>
       <span class="col-5 amount"
         >{{ data.fromAccount.currencyCode | displayCurrencySymbol }}
         {{ data.amount }}</span
@@ -35,6 +35,6 @@
     </div>
   </div>
 </div>
-<div class="modal-footer">
+<div i18n class="modal-footer">
   <app-button (clicked)="confirm()">Transfer</app-button>
 </div>

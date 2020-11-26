@@ -1,7 +1,7 @@
 <div class="card border-0">
   <div class="card-header d-flex text-white p-3">
     <img class="position-absolute" src="../../../assets/icons/briefcase.png" />
-    <span class="mx-auto">Recent Transactions</span>
+    <span i18n class="mx-auto">Recent Transactions</span>
   </div>
   <div class="card-body">
     <div class="container-fluid">
@@ -13,6 +13,7 @@
                 type="text"
                 autocomplete="off"
                 class="form-input"
+                i18n-placeholder
                 placeholder="Search by typing..."
                 [(ngModel)]="searchText"
                 [ngModelOptions]="{ standalone: true }"
@@ -29,9 +30,10 @@
         <div
           class="col-12 col-lg-6 d-flex flex-column flex-md-row justify-content-between align-items-lg-center p-0"
         >
-          <span class="font-weight-bold">Sort by</span>
+          <span i18n class="font-weight-bold">Sort by</span>
           <div class="btn-group">
             <button
+              i18n
               type="button"
               class="btn btn-outline-secondary rounded-0 shadow-none text-black-50"
               (click)="sort(SortColumn.Date, ColumnType.Date)"
@@ -44,6 +46,7 @@
               ></span>
             </button>
             <button
+              i18n
               type="button"
               class="btn btn-outline-secondary rounded-0 shadow-none text-black-50"
               (click)="sort(SortColumn.Merchant, ColumnType.String)"
@@ -56,6 +59,7 @@
               ></span>
             </button>
             <button
+              i18n
               type="button"
               class="btn btn-outline-secondary rounded-0 shadow-none text-black-50"
               (click)="sort(SortColumn.Amount, ColumnType.Number)"

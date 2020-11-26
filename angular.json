@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "quick-transfer-app": {
@@ -13,26 +13,41 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "fr": {
+            "translation": "src/locale/messages.fr.xlf",
+            "baseHref": ""
+          },
+          "nl": {
+            "translation": "src/locale/messages.nl.xlf",
+            "baseHref": ""
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": true,
             "outputPath": "dist/quick-transfer-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           },
           "configurations": {
+            "fr": {
+              "localize": ["fr"]
+            },
+            "nl": {
+              "localize": ["nl"]
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -70,6 +85,12 @@
           "configurations": {
             "production": {
               "browserTarget": "quick-transfer-app:build:production"
+            },
+            "fr": {
+              "browserTarget": "quick-transfer-app:build:fr"
+            },
+            "nl": {
+              "browserTarget": "quick-transfer-app:build:nl"
             }
           }
         },
@@ -86,13 +107,8 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           }
         },
@@ -104,9 +120,7 @@
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
@@ -122,6 +136,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "quick-transfer-app"
 }

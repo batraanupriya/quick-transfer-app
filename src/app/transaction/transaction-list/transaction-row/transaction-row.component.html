@@ -10,7 +10,9 @@
   </div>
   <div class="col-6 col-md-6 order-3">
     <div class="font-weight-bold merchant">{{ transaction.merchant }}</div>
-    <div class="transaction-type">{{ transaction.type }}</div>
+    <div i18n class="transaction-type">
+      {{ transaction.type }}
+    </div>
   </div>
   <div
     class="col-6 col-md-3 order-4 text-right font-weight-bold transaction-amount"

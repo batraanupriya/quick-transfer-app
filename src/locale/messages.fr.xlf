@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="aa6ce7e6e6fe5cd080713965451f25bca15a2a25" datatype="html">
+        <source>Recent Transactions</source>
+        <target>Transactions récentes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/transaction-list/transaction-list.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab11d4b244ee19c9dcf6ab94249ed38a550834f7" datatype="html">
+        <source>Search by typing...</source>
+         <target>Rechercher en tapant ...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/transaction-list/transaction-list.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ec97f67072a83aaa972536b18d83179f6e4bbec9" datatype="html">
+        <source>Sort by</source>
+         <target>Trier par</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/transaction-list/transaction-list.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cce115f9dd7ecf66dcf5eb02f23b374169d07ea8" datatype="html">
+        <source> DATE <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span
+                [ngClass]=&quot;
+                  columnToBeSorted === SortColumn.Date ? sortDirection : &apos;&apos;
+                &quot;
+              &gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+              <target> DATE <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span
+                [ngClass]=&quot;
+                  columnToBeSorted === SortColumn.Date ? sortDirection : &apos;&apos;
+                &quot;
+              &gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/transaction-list/transaction-list.component.html</context>
+          <context context-type="linenumber">41,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d83b5e41d9eee5e93fd786021124995a8a2c0afa" datatype="html">
+        <source> BENEFICIARY <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span
+                [ngClass]=&quot;
+                  columnToBeSorted === SortColumn.Merchant ? sortDirection : &apos;&apos;
+                &quot;
+              &gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+
+               <target> BÉNÉFICIAIRE <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span
+                [ngClass]=&quot;
+                  columnToBeSorted === SortColumn.Merchant ? sortDirection : &apos;&apos;
+                &quot;
+              &gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/transaction-list/transaction-list.component.html</context>
+          <context context-type="linenumber">54,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ff61c8df6afea7d611b3c73e160255de75e376fa" datatype="html">
+        <source> AMOUNT <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span
+                [ngClass]=&quot;
+                  columnToBeSorted === SortColumn.Amount ? sortDirection : &apos;&apos;
+                &quot;
+              &gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+              <target> MONTANTE <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span
+                [ngClass]=&quot;
+                  columnToBeSorted === SortColumn.Amount ? sortDirection : &apos;&apos;
+                &quot;
+              &gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/transaction-list/transaction-list.component.html</context>
+          <context context-type="linenumber">67,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a42860a7a282ec6ca57db03dce54b87705ac301b" datatype="html">
+        <source>Make a Transfer</source>
+        <target>Effectuer un transfert</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/quick-transfer-form/quick-transfer-form.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a9377fb734975cbf672296eb78be4146c0724480" datatype="html">
+        <source>From Account</source>
+        <target>Du compte</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/quick-transfer-form/quick-transfer-form.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e6a0156afb757d0a2ea410daf2f3a717ea6ebe37" datatype="html">
+        <source>To Account</source>
+        <target>Estimer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/quick-transfer-form/quick-transfer-form.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="19a912f16570024041eaa0cedca0ae15082c9b7a" datatype="html">
+        <source>Merchant name</source>
+        <target>Nom du commerçant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/quick-transfer-form/quick-transfer-form.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dfc2fb58e2a04ed944a4bd80f0a2087775134068" datatype="html">
+        <source>Amount</source>
+        <target>Montante</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/quick-transfer-form/quick-transfer-form.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/preview-transfer/preview-transfer.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="051b4742d74cc9ed07bb9ee57053e89f5ef40ca0" datatype="html">
+        <source>0.00</source>
+        <target>0.00</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/quick-transfer-form/quick-transfer-form.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a82a95bca2c0e434477251586881654d87db49bb" datatype="html">
+        <source><x id="START_TAG_APP_BUTTON" ctype="x-app_button" equiv-text="&lt;app-button type=&quot;submit&quot; [disabled]=&quot;transferForm.invalid&quot;
+          &gt;"/>Submit<x id="CLOSE_TAG_APP_BUTTON" ctype="x-app_button" equiv-text="&lt;/app-button
+        &gt;"/></source>
+        <target><x id="START_TAG_APP_BUTTON" ctype="x-app_button" equiv-text="&lt;app-button type=&quot;submit&quot; [disabled]=&quot;transferForm.invalid&quot;
+          &gt;"/>Soumettre<x id="CLOSE_TAG_APP_BUTTON" ctype="x-app_button" equiv-text="&lt;/app-button
+        &gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/quick-transfer-form/quick-transfer-form.component.html</context>
+          <context context-type="linenumber">68,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a6570d8a00cbfcecbeafd1839709328fc25cb389" datatype="html">
+        <source> Can not overdraft beyond 500 </source>
+         <target> Impossible de découvert au-delà de 500 </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/quick-transfer-form/quick-transfer-form.component.html</context>
+          <context context-type="linenumber">65,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0295e37c88ba1f28e569a35e3c6871b90529f8fa" datatype="html">
+        <source>Confirmation</source>
+        <target>Confirmation</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/preview-transfer/preview-transfer.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d5e0dbc9fd4651759df915cdc6ba26fe3f17475f" datatype="html">
+        <source>From</source>
+        <target>De</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/preview-transfer/preview-transfer.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="63c9c3aa536dbd11120ae8feab62186c47838028" datatype="html">
+        <source>To</source>
+        <target>À</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/preview-transfer/preview-transfer.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0f6834ab2635a2f08f0886d50cec9475c601a005" datatype="html">
+        <source><x id="START_TAG_APP_BUTTON" ctype="x-app_button" equiv-text="&lt;app-button (clicked)=&quot;confirm()&quot;&gt;"/>Transfer<x id="CLOSE_TAG_APP_BUTTON" ctype="x-app_button" equiv-text="&lt;/app-button&gt;"/></source>
+        <target><x id="START_TAG_APP_BUTTON" ctype="x-app_button" equiv-text="&lt;app-button (clicked)=&quot;confirm()&quot;&gt;"/>Transfert<x id="CLOSE_TAG_APP_BUTTON" ctype="x-app_button" equiv-text="&lt;/app-button&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/transaction/preview-transfer/preview-transfer.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/alert/alert.ts</context>
+          <context context-type="linenumber">55,58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/alert/alert.ts</context>
+          <context context-type="linenumber">70,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION" equiv-text="ate _pauseOnHov"/> of <x id="INTERPOLATION_1" equiv-text="ect(false);
+  p"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">114,118</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">132,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">147,151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">24,27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">44,48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">57,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">44,49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">59,63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">72,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">147,148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">153,154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">158,159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">164,165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">168,172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">176,177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">188,189</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">195,200</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="turn this._max;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/progressbar/progressbar.ts</context>
+          <context context-type="linenumber">31,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">46,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">50,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">55,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">62,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">80,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">86,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">91,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">103,104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">109,115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="sible.
+   */
+  "/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">131,136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="nts ControlValu"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">154,118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/toast/toast.ts</context>
+          <context context-type="linenumber">78,85</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
