@@ -1,6 +1,12 @@
 # QuickTransferApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+This is a single page application for initiating a quick transfer built using Angular 11, TypeScript, ngbootstrap, bootstrap, HTML5, CSS3 and SASS.
+
+Live version of this application is available [here](https://quick-transfer-app.web.app).
+
+## Installing dependencies
+
+Run `npm i` to install dependencies.
 
 ## Development server
 
@@ -21,6 +27,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Application structure
+
+![Application Structure](./src/assets/app-structure.png)
 
 ## Further help
 
